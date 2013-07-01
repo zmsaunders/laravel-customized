@@ -114,6 +114,9 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
+		// Profiler
+        'Profiler\ProfilerServiceProvider',
+
 	),
 
 	/*
@@ -178,6 +181,9 @@ return array(
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
+
+		// Profiler
+        'Profiler' => 'Profiler\Facades\Profiler'
 
 	),
 
